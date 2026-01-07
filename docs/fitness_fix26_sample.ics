@@ -11,7 +11,7 @@ UID:fitnessfix26-2026-01-12@fitnessfix.local
 DTSTAMP:20260107T150726Z
 DTSTART:20260112T070000
 DTEND:20260112T073000
-SUMMARY:Fitness Fix '26 — Daily Plan
+SUMMARY:Fitness Fix '26 — Daily Plan Update
 DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Sunset Yoga with Mina — 3 pts
 BEGIN:VALARM
 TRIGGER:-PT15M
