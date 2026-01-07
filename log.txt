@@ -1,0 +1,491 @@
+
+Fitness Fix '26 — Daily Progress Log
+
+Instructions: run `python add_log.py` to append a new dated entry template for today.
+This file has been pre-filled with suggested 18-point plans for each challenge day (Jan 12–Feb 15).
+Each entry shows activity points (Daily Total = 18) and any Weekly Bonus/event applied that day.
+
+WEEKLY HINT: Weekly bonuses (3 pts) are EXTRA and counted toward the 15-pt weekly bonus limit.
+
+
+-----
+
+Week 1: Jan 12 — Jan 18 (Weekly events: 1/12 Sunset Yoga — 3 pts)
+
+Date: 2026-01-12
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Sunset Yoga with Mina — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-13
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group class / Cycle Strong): 5 pts
+- Secondary activity (Walk 30 min): 2 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 6 pts (longer mobility to reach 18)
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-14
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-15
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Personal training / PT): 5 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-16
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min + short bike): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-17
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group Fitness class): 5 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-18
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min walk or hike): 3 pts
+- Secondary activity (Walk/Swim 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Group class / Bonus clinic: 3 pts
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+
+Week 2: Jan 19 — Jan 25 (Weekly events: 1/19 Farmer's Market — 3 pts; Whiteboard: UPPER)
+
+Date: 2026-01-19
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Farmer's Market — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-20
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group class): 5 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-21
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Bocce / Court sport light): 4 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+- Optional bonus class / clinic: 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Bocce Kickoff 2026 — 4 pts (court sport cap)
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-22
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 2 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 5 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-23
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Personal training / PT): 5 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-24
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group Fitness class): 5 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 5 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-25
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+
+Week 3: Jan 26 — Feb 1 (Weekly events: 1/27 Health Fair — 3 pts; 1/30 Foam Rolling — 3 pts; Whiteboard: CORE)
+
+Date: 2026-01-26
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 2 pts
+- Walk / Swim (30 min): 4 pts
+- Rehab / homework: 1 pt
+- Core / mobility (15 min): 2 pts
+- Stretch / Yoga (finisher): 1 pt
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-27
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group Fitness / Health Fair participation): 3 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Whiteboard: CORE workout — 6 pts (or 3–9 pts as desired)
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Health Fair — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-28
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-29
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Personal training / PT): 5 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-30
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Foam Rolling Class with Erica): 3 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Whiteboard: CORE or recovery — 4 pts
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Foam Rolling Class — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-01-31
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+
+Week 4: Feb 2 — Feb 8 (Weekly events: 2/3 Living Well — 3 pts; 2/5 Stretching with Cyd — 3 pts; Whiteboard: LOWER)
+
+Date: 2026-02-01
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 2 pts
+- Run / Swim (30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 1 pt
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-02
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group Fitness class): 5 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Whiteboard: LOWER workout — 3 pts
+- Stretch / Yoga (finisher): 2 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-03
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Living Well Series attendance): 3 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Group class / bonus clinic: 3 pts
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Living Well Series — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-04
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 2 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 5 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-05
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Stretching with Cyd attendance): 3 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Whiteboard: LOWER or mobility — 4 pts
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Stretching with Cyd — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-06
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-07
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group Fitness class): 5 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 5 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-08
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+
+Week 5: Feb 9 — Feb 15 (Weekly events: 2/9 Meditation — 3 pts; 2/13 Sunrise Yoga — 3 pts; Whiteboard: CARDIO)
+
+Date: 2026-02-09
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Meditation class attendance + light movement): 3 pts
+- Secondary activity (Walk 90 min split): 6 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 4 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Meditation Class — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-10
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-11
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Group Fitness class): 5 pts
+- Secondary activity (Walk 45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 5 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-12
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-13
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Sunrise Yoga with Camille attendance): 3 pts
+- Secondary activity (Walk 30–45 min): 3 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Whiteboard: CARDIO workout — 4 pts
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: Sunrise Yoga with Camille — 3 pts
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-14
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (45-min workout): 6 pts
+- Secondary activity (Walk 30 min): 2 pts
+- Run / Swim (30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 1 pt
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
+Date: 2026-02-15
+Activities:
+- Bike commute (30 min total): 2 pts
+- Primary activity (Finish Line group activity / 45-min workout): 6 pts
+- Secondary activity (Run 30 min): 4 pts
+- Core / mobility (15 min): 2 pts
+- Rehab / homework: 1 pt
+- Stretch / Yoga (finisher): 3 pts
+Daily Total (activity points): 18
+Weekly Bonus / Event today: None
+How I felt (1–5):
+Notes (optional):
+
