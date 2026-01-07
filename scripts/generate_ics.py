@@ -60,10 +60,14 @@ def make_description(log_path, entry_text):
     return desc_text.replace("\r", "").replace("\n", "\\n")
 
 
-def generate(log_path: Path, out_path: Path, sample_first_day=False):
+def generate(log_path: Path, out_path: Path, sample_first_day=False, sample_days: int = 0):
     text = log_path.read_text(encoding="utf-8")
     entries = list(parse_entries(text))
-    if sample_first_day:
+    if sample_days and sample_days > 0:
+        if not entries:
+            raise SystemExit("No dated entries found in log.txt to sample.")
+        entries = entries[:sample_days]
+    elif sample_first_day:
         if not entries:
             raise SystemExit("No dated entries found in log.txt to sample.")
         entries = [entries[0]]
@@ -112,6 +116,7 @@ def main():
     p.add_argument("--log", default=str(DEFAULT_LOG), help="Path to log.txt")
     p.add_argument("--output", "-o", default=str(DEFAULT_OUT), help="Output .ics path")
     p.add_argument("--sample-first-day", action="store_true", help="Create a sample .ics for the first dated entry only")
+    p.add_argument("--sample-days", type=int, default=0, help="Create a sample .ics containing the first N dated entries")
     args = p.parse_args()
 
     log_path = Path(args.log).expanduser()
@@ -119,7 +124,7 @@ def main():
     if not log_path.exists():
         raise SystemExit(f"log file not found: {log_path}")
 
-    generate(log_path, out_path, sample_first_day=args.sample_first_day)
+    generate(log_path, out_path, sample_first_day=args.sample_first_day, sample_days=args.sample_days)
 
 
 if __name__ == "__main__":

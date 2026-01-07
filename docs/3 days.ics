@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fitness Fix '26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fitness Fix '26
+X-WR-TIMEZONE:UTC
+DTSTAMP:20260107T225517Z
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-12@fitnessfix.local
+DTSTAMP:20260107T225517Z
+DTSTART:20260112T070000
+DTEND:20260112T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Sunset Yoga with Mina — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-13@fitnessfix.local
+DTSTAMP:20260107T225517Z
+DTSTART:20260113T070000
+DTEND:20260113T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group class / Cycle Strong): 5 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 6 pts (longer mobility to reach 18)\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-14@fitnessfix.local
+DTSTAMP:20260107T225517Z
+DTSTART:20260114T070000
+DTEND:20260114T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+END:VCALENDAR
