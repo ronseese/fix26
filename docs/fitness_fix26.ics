@@ -1,0 +1,464 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fitness Fix '26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fitness Fix '26
+X-WR-TIMEZONE:UTC
+DTSTAMP:20260107T231229Z
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-12@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260112T070000
+DTEND:20260112T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Sunset Yoga with Mina — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-13@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260113T070000
+DTEND:20260113T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group class / Cycle Strong): 5 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 6 pts (longer mobility to reach 18)\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-14@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260114T070000
+DTEND:20260114T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-15@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260115T070000
+DTEND:20260115T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Personal training / PT): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-16@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260116T070000
+DTEND:20260116T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min + short bike): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-17@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260117T070000
+DTEND:20260117T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-18@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260118T070000
+DTEND:20260118T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min walk or hike): 3 pts\n- Secondary activity (Walk/Swim 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Group class / Bonus clinic: 3 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 2: Jan 19 — Jan 25 (Weekly events: 1/19 Farmer's Market — 3 pts; Whiteboard: UPPER)
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-19@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260119T070000
+DTEND:20260119T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Farmer's Market — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-20@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260120T070000
+DTEND:20260120T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group class): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-21@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260121T070000
+DTEND:20260121T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Bocce / Court sport light): 4 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\n- Optional bonus class / clinic: 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Bocce Kickoff 2026 — 4 pts (court sport cap)
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-22@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260122T070000
+DTEND:20260122T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-23@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260123T070000
+DTEND:20260123T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Personal training / PT): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-24@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260124T070000
+DTEND:20260124T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-25@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260125T070000
+DTEND:20260125T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 3: Jan 26 — Feb 1 (Weekly events: 1/27 Health Fair — 3 pts; 1/30 Foam Rolling — 3 pts; Whiteboard: CORE)
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-26@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260126T070000
+DTEND:20260126T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Walk / Swim (30 min): 4 pts\n- Rehab / homework: 1 pt\n- Core / mobility (15 min): 2 pts\n- Stretch / Yoga (finisher): 1 pt\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-27@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260127T070000
+DTEND:20260127T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness / Health Fair participation): 3 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: CORE workout — 6 pts (or 3–9 pts as desired)\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Health Fair — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-28@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260128T070000
+DTEND:20260128T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-29@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260129T070000
+DTEND:20260129T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Personal training / PT): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-30@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260130T070000
+DTEND:20260130T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Foam Rolling Class with Erica): 3 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: CORE or recovery — 4 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Foam Rolling Class — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-01-31@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260131T070000
+DTEND:20260131T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 4: Feb 2 — Feb 8 (Weekly events: 2/3 Living Well — 3 pts; 2/5 Stretching with Cyd — 3 pts; Whiteboard: LOWER)
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-01@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260201T070000
+DTEND:20260201T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Run / Swim (30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 1 pt\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-02@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260202T070000
+DTEND:20260202T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: LOWER workout — 3 pts\n- Stretch / Yoga (finisher): 2 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-03@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260203T070000
+DTEND:20260203T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Living Well Series attendance): 3 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Group class / bonus clinic: 3 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Living Well Series — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-04@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260204T070000
+DTEND:20260204T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-05@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260205T070000
+DTEND:20260205T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Stretching with Cyd attendance): 3 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: LOWER or mobility — 4 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Stretching with Cyd — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-06@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260206T070000
+DTEND:20260206T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-07@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260207T070000
+DTEND:20260207T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-08@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260208T070000
+DTEND:20260208T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 5: Feb 9 — Feb 15 (Weekly events: 2/9 Meditation — 3 pts; 2/13 Sunrise Yoga — 3 pts; Whiteboard: CARDIO)
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-09@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260209T070000
+DTEND:20260209T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Meditation class attendance + light movement): 3 pts\n- Secondary activity (Walk 90 min split): 6 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Meditation Class — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-10@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260210T070000
+DTEND:20260210T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-11@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260211T070000
+DTEND:20260211T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-12@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260212T070000
+DTEND:20260212T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-13@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260213T070000
+DTEND:20260213T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Sunrise Yoga with Camille attendance): 3 pts\n- Secondary activity (Walk 30–45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: CARDIO workout — 4 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Sunrise Yoga with Camille — 3 pts
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-14@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260214T070000
+DTEND:20260214T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Run / Swim (30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 1 pt\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-2026-02-15@fitnessfix.local
+DTSTAMP:20260107T231229Z
+DTSTART:20260215T070000
+DTEND:20260215T073000
+SUMMARY:Fitness Fix '26 — Daily Plan
+DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Finish Line group activity / 45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+END:VCALENDAR
