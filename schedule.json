@@ -1,0 +1,31 @@
+{
+  "challenge_start": "2026-01-12",
+  "challenge_end":   "2026-02-15",
+  "events": [
+    {
+      "name": "Pickleball practice",
+      "points": 4,
+      "duration_minutes": 90,
+      "occurrences": [
+        {"weekday": "Mon", "time": "16:00"},
+        {"weekday": "Fri", "time": "08:00"}
+      ]
+    },
+    {
+      "name": "Pickleball Round Robin",
+      "points": 4,
+      "duration_minutes": 90,
+      "occurrences": [
+        {"weekday": "Sat", "time": "08:00"}
+      ]
+    },
+    {
+      "name": "Line Dancing",
+      "points": 5,
+      "duration_minutes": 60,
+      "occurrences": [
+        {"weekday": "Thu", "time": "16:00"}
+      ]
+    }
+  ]
+}

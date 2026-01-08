@@ -1,0 +1,3636 @@
+{
+  "challenge_start": "2026-01-12",
+  "challenge_end": "2026-02-15",
+  "daily": [
+    {
+      "date": "2026-01-12",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "16:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-13",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-14",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-15",
+      "items": [
+        {
+          "name": "Line Dancing",
+          "time": "16:00",
+          "duration_minutes": 60,
+          "points": 5
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-16",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-17",
+      "items": [
+        {
+          "name": "Pickleball Round Robin",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-18",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-19",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "16:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-20",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-21",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-22",
+      "items": [
+        {
+          "name": "Line Dancing",
+          "time": "16:00",
+          "duration_minutes": 60,
+          "points": 5
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-23",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-24",
+      "items": [
+        {
+          "name": "Pickleball Round Robin",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-25",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-26",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "16:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-27",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-28",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-29",
+      "items": [
+        {
+          "name": "Line Dancing",
+          "time": "16:00",
+          "duration_minutes": 60,
+          "points": 5
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-30",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-01-31",
+      "items": [
+        {
+          "name": "Pickleball Round Robin",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-01",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-02",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "16:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-03",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-04",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-05",
+      "items": [
+        {
+          "name": "Line Dancing",
+          "time": "16:00",
+          "duration_minutes": 60,
+          "points": 5
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-06",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-07",
+      "items": [
+        {
+          "name": "Pickleball Round Robin",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-08",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-09",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "16:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-10",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-11",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-12",
+      "items": [
+        {
+          "name": "Line Dancing",
+          "time": "16:00",
+          "duration_minutes": 60,
+          "points": 5
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-13",
+      "items": [
+        {
+          "name": "Pickleball practice",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-14",
+      "items": [
+        {
+          "name": "Pickleball Round Robin",
+          "time": "08:00",
+          "duration_minutes": 90,
+          "points": 4
+        },
+        {
+          "name": "Bike commute (round trip)",
+          "points": 1
+        },
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    },
+    {
+      "date": "2026-02-15",
+      "items": [
+        {
+          "name": "Fitness Fix '26 \u2014 Activities & Tracker",
+          "points": 1
+        },
+        {
+          "name": "Level",
+          "points": 1
+        },
+        {
+          "name": "Duration: 5 weeks (1/12/2026 \u2014 2/15/2026)",
+          "points": 1
+        },
+        {
+          "name": "ACTIVITY POINTS (examples)",
+          "points": 1
+        },
+        {
+          "name": "- Group fitness class: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- Personal training / Pilates / PT session: 5 points",
+          "points": 1
+        },
+        {
+          "name": "- 9 holes (golf): 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 18 holes (golf): 4 points",
+          "points": 1
+        },
+        {
+          "name": "- Golf range: 1 point",
+          "points": 1
+        },
+        {
+          "name": "- Court sports: 1 point per 15 minutes (up to 60 minutes)",
+          "points": 1
+        },
+        {
+          "name": "- Private lesson / clinic (golf or court): 3 points",
+          "points": 1
+        },
+        {
+          "name": "- Walk / Bike / Similar: 1 point per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Run / Swim / Similar: 2 points per 15 minutes",
+          "points": 1
+        },
+        {
+          "name": "- Rehab homework: 1 point per session",
+          "points": 1
+        },
+        {
+          "name": "- 15-minute workout: 2 points",
+          "points": 1
+        },
+        {
+          "name": "- 30-minute workout: 4 points",
+          "points": 1
+        },
+        {
+          "name": "- 45-minute workout: 6 points",
+          "points": 1
+        },
+        {
+          "name": "DAILY TRACKER (fill in points each day)",
+          "points": 1
+        },
+        {
+          "name": "Week 1: Jan 12 \u2014 Jan 18",
+          "points": 1
+        },
+        {
+          "name": "Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 1 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 2: Jan 19 \u2014 Jan 25",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 2 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 3: Jan 26 \u2014 Feb 1",
+          "points": 1
+        },
+        {
+          "name": "Weekly Bonus: _____  Week 3 Subtotal: _____",
+          "points": 1
+        },
+        {
+          "name": "Week 4: Feb 2 \u2014 Feb 8",
+          "points": 1
+        }
+      ],
+      "total_points": 26
+    }
+  ]
+}

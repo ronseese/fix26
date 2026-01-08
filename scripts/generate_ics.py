@@ -13,6 +13,7 @@ from pathlib import Path
 import argparse
 import re
 import datetime
+import json
 
 
 DEFAULT_LOG = Path(__file__).resolve().parents[0] / "../log.txt"
@@ -56,6 +57,28 @@ def make_description(log_path, entry_text):
     desc_text = "\n".join(filtered_lines).strip()
     if not desc_text:
         desc_text = "See log.txt for details"
+
+    # Compute numeric activity points found in the original entry_text and cap at 18
+    pts = [int(n) for n in re.findall(r"(\d+)\s*pt", entry_text.lower())]
+    total = sum(pts) if pts else None
+    if total is not None:
+        display_total = min(total, 18)
+        # replace the Daily Total line if present, else append it
+        if re.search(r"(?m)^Daily Total \(activity points\):\s*\d+", desc_text):
+            if total > 18:
+                desc_text = re.sub(r"(?m)^(Daily Total \(activity points\):)\s*\d+",
+                                   lambda m: f"{m.group(1)} {display_total} (capped from {total})",
+                                   desc_text)
+            else:
+                desc_text = re.sub(r"(?m)^(Daily Total \(activity points\):)\s*\d+",
+                                   lambda m: f"{m.group(1)} {display_total}",
+                                   desc_text)
+        else:
+            extra = f"\nDaily Total (activity points): {display_total}"
+            if total > 18:
+                extra += f" (capped from {total})"
+            desc_text = desc_text + extra
+
     # escape newlines for ICS DESCRIPTION
     return desc_text.replace("\r", "").replace("\n", "\\n")
 
@@ -104,6 +127,49 @@ def generate(log_path: Path, out_path: Path, sample_first_day=False, sample_days
             "END:VALARM",
             "END:VEVENT",
         ]
+
+    # Optionally include scheduled events from schedule.json (non-destructive)
+    # The generator will add separate VEVENTs for scheduled items across the challenge range.
+    schedule_path = Path(__file__).resolve().parents[0] / "../schedule.json"
+    if schedule_path.exists() and getattr(generate, "include_schedule", False):
+        sch = json.loads(schedule_path.read_text(encoding="utf-8"))
+        start = datetime.date.fromisoformat(sch.get("challenge_start"))
+        end = datetime.date.fromisoformat(sch.get("challenge_end"))
+        weekday_map = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
+        # build set of dates that already have a daily event to avoid duplicates
+        existing_dates = {d for d, _ in entries}
+        d = start
+        while d <= end:
+            if d in existing_dates:
+                d += datetime.timedelta(days=1)
+                continue
+            for ev in sch.get("events", []):
+                name = ev.get("name")
+                pts = ev.get("points", 0)
+                for occ in ev.get("occurrences", []):
+                    wd = weekday_map.get(occ.get("weekday"))
+                    if wd == d.weekday():
+                        t = occ.get("time", "07:00")
+                        dtstart = datetime.datetime.combine(d, datetime.time(int(t.split(":"))[0], int(t.split(":"))[1])).strftime("%Y%m%dT%H%M00")
+                        dtend = (datetime.datetime.combine(d, datetime.time(int(t.split(":"))[0], int(t.split(":"))[1])) + datetime.timedelta(minutes=ev.get("duration_minutes",30))).strftime("%Y%m%dT%H%M00")
+                        uid = f"fitnessfix26-sched-{d.isoformat()}-{re.sub(r'[^A-Za-z0-9]', '', name).lower()}@fitnessfix.local"
+                        desc = f"{name} — {pts} pts"
+                        cal += [
+                            "BEGIN:VEVENT",
+                            f"UID:{uid}",
+                            f"DTSTAMP:{dtstamp()}",
+                            f"DTSTART:{dtstart}",
+                            f"DTEND:{dtend}",
+                            f"SUMMARY:{name}",
+                            f"DESCRIPTION:{desc}",
+                            "BEGIN:VALARM",
+                            "TRIGGER:-PT15M",
+                            "ACTION:DISPLAY",
+                            "DESCRIPTION:Reminder - Fitness Fix '26",
+                            "END:VALARM",
+                            "END:VEVENT",
+                        ]
+            d += datetime.timedelta(days=1)
 
     cal.append("END:VCALENDAR")
     out_path.parent.mkdir(parents=True, exist_ok=True)

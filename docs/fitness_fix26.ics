@@ -1,18 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Fitness Fix '26//EN
+PRODID:-//Fitness Fix '26 (plan)//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Fitness Fix '26
+X-WR-CALNAME:Fitness Fix '26 (Plan)
 X-WR-TIMEZONE:UTC
-DTSTAMP:20260107T234000Z
+DTSTAMP:20260108T001912Z
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-12@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-12-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260112T070000
 DTEND:20260112T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Sunset Yoga with Mina — 3 pts; Pickleball practice — 4 pts (Mon 4:00 PM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 16:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -20,12 +20,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-13@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-12-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260112T160000
+DTEND:20260112T173000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-13-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260113T070000
 DTEND:20260113T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group class / Cycle Strong): 5 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 6 pts (longer mobility to reach 18)\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -33,12 +46,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-14@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-14-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260114T070000
 DTEND:20260114T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -46,12 +59,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-15@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-15-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260115T070000
 DTEND:20260115T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Personal training / PT): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Line Dancing — 5 pts (Thu 4:00 PM)
+DESCRIPTION:- Line Dancing — 5 pt @ 16:00\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -59,12 +72,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-16@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-15-linedancing@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260115T160000
+DTEND:20260115T170000
+SUMMARY:Line Dancing
+DESCRIPTION:Line Dancing — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-16-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260116T070000
 DTEND:20260116T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min + short bike): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball practice — 4 pts (Fri 8:00 AM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -72,12 +98,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-17@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-16-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260116T080000
+DTEND:20260116T093000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-17-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260117T070000
 DTEND:20260117T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball Round Robin — 4 pts (Sat 8:00 AM)
+DESCRIPTION:- Pickleball Round Robin — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -85,12 +124,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-18@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-17-pickleballroundrobin@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260117T080000
+DTEND:20260117T093000
+SUMMARY:Pickleball Round Robin
+DESCRIPTION:Pickleball Round Robin — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-18-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260118T070000
 DTEND:20260118T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min walk or hike): 3 pts\n- Secondary activity (Walk/Swim 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Group class / Bonus clinic: 3 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 2: Jan 19 — Jan 25 (Weekly events: 1/19 Farmer's Market — 3 pts; Whiteboard: UPPER)
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -98,12 +150,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-19@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-19-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260119T070000
 DTEND:20260119T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Farmer's Market — 3 pts; Pickleball practice — 4 pts (Mon 4:00 PM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 16:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -111,12 +163,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-20@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-19-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260119T160000
+DTEND:20260119T173000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-20-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260120T070000
 DTEND:20260120T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group class): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -124,12 +189,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-21@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-21-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260121T070000
 DTEND:20260121T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Bocce / Court sport light): 4 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\n- Optional bonus class / clinic: 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Bocce Kickoff 2026 — 4 pts (court sport cap)
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -137,12 +202,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-22@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-22-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260122T070000
 DTEND:20260122T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Line Dancing — 5 pts (Thu 4:00 PM)
+DESCRIPTION:- Line Dancing — 5 pt @ 16:00\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -150,12 +215,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-23@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-22-linedancing@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260122T160000
+DTEND:20260122T170000
+SUMMARY:Line Dancing
+DESCRIPTION:Line Dancing — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-23-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260123T070000
 DTEND:20260123T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Personal training / PT): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball practice — 4 pts (Fri 8:00 AM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -163,12 +241,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-24@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-23-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260123T080000
+DTEND:20260123T093000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-24-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260124T070000
 DTEND:20260124T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball Round Robin — 4 pts (Sat 8:00 AM)
+DESCRIPTION:- Pickleball Round Robin — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -176,12 +267,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-25@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-24-pickleballroundrobin@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260124T080000
+DTEND:20260124T093000
+SUMMARY:Pickleball Round Robin
+DESCRIPTION:Pickleball Round Robin — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-25-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260125T070000
 DTEND:20260125T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 3: Jan 26 — Feb 1 (Weekly events: 1/27 Health Fair — 3 pts; 1/30 Foam Rolling — 3 pts; Whiteboard: CORE)
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -189,12 +293,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-26@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-26-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260126T070000
 DTEND:20260126T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Walk / Swim (30 min): 4 pts\n- Rehab / homework: 1 pt\n- Core / mobility (15 min): 2 pts\n- Stretch / Yoga (finisher): 1 pt\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball practice — 4 pts (Mon 4:00 PM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 16:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -202,12 +306,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-27@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-26-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260126T160000
+DTEND:20260126T173000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-27-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260127T070000
 DTEND:20260127T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness / Health Fair participation): 3 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: CORE workout — 6 pts (or 3–9 pts as desired)\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Health Fair — 3 pts
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -215,12 +332,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-28@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-28-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260128T070000
 DTEND:20260128T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -228,12 +345,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-29@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-01-29-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260129T070000
 DTEND:20260129T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Personal training / PT): 5 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Line Dancing — 5 pts (Thu 4:00 PM)
+DESCRIPTION:- Line Dancing — 5 pt @ 16:00\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -241,12 +358,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-30@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-29-linedancing@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260129T160000
+DTEND:20260129T170000
+SUMMARY:Line Dancing
+DESCRIPTION:Line Dancing — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-30-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260130T070000
 DTEND:20260130T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Foam Rolling Class with Erica): 3 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: CORE or recovery — 4 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Foam Rolling Class — 3 pts; Pickleball practice — 4 pts (Fri 8:00 AM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -254,12 +384,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-01-31@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-30-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260130T080000
+DTEND:20260130T093000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-01-31-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260131T070000
 DTEND:20260131T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball Round Robin — 4 pts (Sat 8:00 AM)\nWeek 4: Feb 2 — Feb 8 (Weekly events: 2/3 Living Well — 3 pts; 2/5 Stretching with Cyd — 3 pts; Whiteboard: LOWER)
+DESCRIPTION:- Pickleball Round Robin — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -267,12 +410,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-01@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-01-31-pickleballroundrobin@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260131T080000
+DTEND:20260131T093000
+SUMMARY:Pickleball Round Robin
+DESCRIPTION:Pickleball Round Robin — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-01-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260201T070000
 DTEND:20260201T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Run / Swim (30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 1 pt\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -280,12 +436,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-02@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-02-02-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260202T070000
 DTEND:20260202T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: LOWER workout — 3 pts\n- Stretch / Yoga (finisher): 2 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball practice — 4 pts (Mon 4:00 PM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 16:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -293,12 +449,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-03@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-02-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260202T160000
+DTEND:20260202T173000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-03-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260203T070000
 DTEND:20260203T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Living Well Series attendance): 3 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Group class / bonus clinic: 3 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Living Well Series — 3 pts
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -306,12 +475,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-04@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-02-04-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260204T070000
 DTEND:20260204T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -319,12 +488,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-05@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-02-05-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260205T070000
 DTEND:20260205T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Stretching with Cyd attendance): 3 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: LOWER or mobility — 4 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Stretching with Cyd — 3 pts; Line Dancing — 5 pts (Thu 4:00 PM)
+DESCRIPTION:- Line Dancing — 5 pt @ 16:00\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -332,12 +501,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-06@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-05-linedancing@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260205T160000
+DTEND:20260205T170000
+SUMMARY:Line Dancing
+DESCRIPTION:Line Dancing — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-06-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260206T070000
 DTEND:20260206T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball practice — 4 pts (Fri 8:00 AM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -345,12 +527,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-07@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-06-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260206T080000
+DTEND:20260206T093000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-07-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260207T070000
 DTEND:20260207T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball Round Robin — 4 pts (Sat 8:00 AM)
+DESCRIPTION:- Pickleball Round Robin — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -358,12 +553,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-08@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-07-pickleballroundrobin@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260207T080000
+DTEND:20260207T093000
+SUMMARY:Pickleball Round Robin
+DESCRIPTION:Pickleball Round Robin — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-08-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260208T070000
 DTEND:20260208T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None\nWeek 5: Feb 9 — Feb 15 (Weekly events: 2/9 Meditation — 3 pts; 2/13 Sunrise Yoga — 3 pts; Whiteboard: CARDIO)
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -371,12 +579,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-09@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-02-09-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260209T070000
 DTEND:20260209T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Meditation class attendance + light movement): 3 pts\n- Secondary activity (Walk 90 min split): 6 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 4 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Meditation Class — 3 pts; Pickleball practice — 4 pts (Mon 4:00 PM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 16:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -384,12 +592,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-10@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-09-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260209T160000
+DTEND:20260209T173000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-10-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260210T070000
 DTEND:20260210T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -397,12 +618,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-11@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-02-11-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260211T070000
 DTEND:20260211T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Group Fitness class): 5 pts\n- Secondary activity (Walk 45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 5 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -410,12 +631,12 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-12@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-day-2026-02-12-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260212T070000
 DTEND:20260212T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Line Dancing — 5 pts (Thu 4:00 PM)
+DESCRIPTION:- Line Dancing — 5 pt @ 16:00\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -423,12 +644,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-13@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-12-linedancing@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260212T160000
+DTEND:20260212T170000
+SUMMARY:Line Dancing
+DESCRIPTION:Line Dancing — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-13-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260213T070000
 DTEND:20260213T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Sunrise Yoga with Camille attendance): 3 pts\n- Secondary activity (Walk 30–45 min): 3 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Whiteboard: CARDIO workout — 4 pts\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Sunrise Yoga with Camille — 3 pts; Pickleball practice — 4 pts (Fri 8:00 AM)
+DESCRIPTION:- Pickleball practice — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -436,12 +670,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-14@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-13-pickleballpractice@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260213T080000
+DTEND:20260213T093000
+SUMMARY:Pickleball practice
+DESCRIPTION:Pickleball practice — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-14-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260214T070000
 DTEND:20260214T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (45-min workout): 6 pts\n- Secondary activity (Walk 30 min): 2 pts\n- Run / Swim (30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 1 pt\nDaily Total (activity points): 18\nWeekly Bonus / Event today: Pickleball Round Robin — 4 pts (Sat 8:00 AM)
+DESCRIPTION:- Pickleball Round Robin — 4 pt @ 08:00\n- Bike commute (round trip) — 1 pt\n- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -449,12 +696,25 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-2026-02-15@fitnessfix.local
-DTSTAMP:20260107T234000Z
+UID:fitnessfix26-item-2026-02-14-pickleballroundrobin@fitnessfix.local
+DTSTAMP:20260108T001912Z
+DTSTART:20260214T080000
+DTEND:20260214T093000
+SUMMARY:Pickleball Round Robin
+DESCRIPTION:Pickleball Round Robin — 4 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-day-2026-02-15-@fitnessfix.local
+DTSTAMP:20260108T001912Z
 DTSTART:20260215T070000
 DTEND:20260215T073000
 SUMMARY:Fitness Fix '26 — Daily Plan
-DESCRIPTION:Activities:\n- Bike commute (30 min total): 2 pts\n- Primary activity (Finish Line group activity / 45-min workout): 6 pts\n- Secondary activity (Run 30 min): 4 pts\n- Core / mobility (15 min): 2 pts\n- Rehab / homework: 1 pt\n- Stretch / Yoga (finisher): 3 pts\nDaily Total (activity points): 18\nWeekly Bonus / Event today: None
+DESCRIPTION:- Fitness Fix '26 — Activities & Tracker — 1 pt\n- Level — 1 pt\n- Duration: 5 weeks (1/12/2026 — 2/15/2026) — 1 pt\n- ACTIVITY POINTS (examples) — 1 pt\n- - Group fitness class: 5 points — 1 pt\n- - Personal training / Pilates / PT session: 5 points — 1 pt\n- - 9 holes (golf): 2 points — 1 pt\n- - 18 holes (golf): 4 points — 1 pt\n- - Golf range: 1 point — 1 pt\n- - Court sports: 1 point per 15 minutes (up to 60 minutes) — 1 pt\n- - Private lesson / clinic (golf or court): 3 points — 1 pt\n- - Walk / Bike / Similar: 1 point per 15 minutes — 1 pt\n- - Run / Swim / Similar: 2 points per 15 minutes — 1 pt\n- - Rehab homework: 1 point per session — 1 pt\n- - 15-minute workout: 2 points — 1 pt\n- - 30-minute workout: 4 points — 1 pt\n- - 45-minute workout: 6 points — 1 pt\n- DAILY TRACKER (fill in points each day) — 1 pt\n- Week 1: Jan 12 — Jan 18 — 1 pt\n- Mon: _____  Tue: _____  Wed: _____  Thu: _____  Fri: _____  Sat: _____  Sun: _____ — 1 pt\n- Weekly Bonus: _____  Week 1 Subtotal: _____ — 1 pt\n- Week 2: Jan 19 — Jan 25 — 1 pt\n- Weekly Bonus: _____  Week 2 Subtotal: _____ — 1 pt\n- Week 3: Jan 26 — Feb 1 — 1 pt\n- Weekly Bonus: _____  Week 3 Subtotal: _____ — 1 pt\n- Week 4: Feb 2 — Feb 8 — 1 pt\nDaily Total (activity points): 18 (capped)
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
