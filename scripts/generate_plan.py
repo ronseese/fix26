@@ -16,21 +16,20 @@ def parse_activities(path: Path):
         s = line.strip()
         if not s or s.startswith("#"):
             continue
-        # try to extract a point value like '3 pt' or '3pts' or '— 3'
-        m = re.search(r"(\d+)\s*pt", s, re.I)
+        # Only treat lines with explicit point values as activities (e.g. '5 pt' or '5 points')
+        m = re.search(r"(\d+)\s*(?:pt|pts|point|points)\b", s, re.I)
         if m:
             pts = int(m.group(1))
-            name = re.sub(r"\d+\s*pt", "", s, flags=re.I).strip(" -:\u2014")
+            # remove the numeric point fragment and leading bullets/markers
+            name = re.sub(r"^[-\*\u2022\s]*", "", s)
+            name = re.sub(r"(\d+)\s*(?:pt|pts|point|points)\b", "", name, flags=re.I).strip(" -:\u2014")
+            # skip obvious header lines
+            if re.search(r"^(ACTIVITY|DAILY TRACKER|WEEK)\b", name, re.I):
+                continue
+            items.append((name, pts))
         else:
-            m2 = re.search(r"[-:\u2014]\s*(\d+)$", s)
-            if m2:
-                pts = int(m2.group(1))
-                name = re.sub(r"[-:\u2014]\s*\d+$", "", s).strip()
-            else:
-                # fallback: no explicit points, assume 1
-                pts = 1
-                name = s
-        items.append((name, pts))
+            # skip non-point lines (they're usually headings or examples)
+            continue
     lookup = {n.lower(): p for n, p in items}
     return items, lookup
 
@@ -93,37 +92,92 @@ def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, sched
 
     d = start_date
     while d <= end_date:
+        scheduled = occ_by_weekday.get(d.weekday(), [])
         items = []
+        extras = []
         total = 0
-        # scheduled events on this weekday
-        for ev in occ_by_weekday.get(d.weekday(), []):
-            items.append({
+
+        # First, try to include scheduled events (prioritized). If they won't fit,
+        # move them to extras rather than exceeding the daily cap.
+        for ev in scheduled:
+            pts = ev.get("points", 1)
+            entry = {
                 "name": ev["name"],
                 "time": ev.get("time"),
                 "duration_minutes": ev.get("duration_minutes"),
-                "points": ev.get("points", 1),
-            })
-            total += ev.get("points", 1)
+                "points": pts,
+                "recommended": False,
+            }
+            if total + pts <= daily_cap:
+                entry["recommended"] = True
+                items.append(entry)
+                total += pts
+            else:
+                extras.append({**entry, "reason": "exceeds_daily_cap"})
 
-        # Bike commute rule: add bike commute when any scheduled event mentions pickle or gym
-        if any(re.search(r"pickl|pb|gym", i["name"], re.I) for i in items):
+        # Bike commute rule: add bike commute when any scheduled item mentions pickle or gym
+        if any(re.search(r"pickl|pb|gym", it.get("name", ""), re.I) for it in scheduled):
             bike_name = "Bike commute (round trip)"
             bike_pts = activities_map.get(bike_name.lower(), 1)
-            items.append({"name": bike_name, "points": bike_pts})
-            total += bike_pts
+            bike_entry = {"name": bike_name, "points": bike_pts, "recommended": False}
+            if total + bike_pts <= daily_cap:
+                bike_entry["recommended"] = True
+                items.append(bike_entry)
+                total += bike_pts
+            else:
+                extras.append({**bike_entry, "reason": "exceeds_daily_cap"})
 
-        # fill remaining with highest-priority activities (from activities_list order)
-        for name, pts in activities_list:
-            if total >= daily_cap:
-                break
-            # skip items already scheduled
-            lname = name.lower()
-            if any(it.get("name", "").lower() == lname for it in items):
-                continue
-            items.append({"name": name, "points": pts})
-            total += pts
+        # Fill remaining by choosing a single subset of filler activities that
+        # maximizes points without exceeding the remaining allowance.
+        remaining = daily_cap - total
+        if remaining > 0:
+            filler_patterns = re.compile(r"15-minute|30-minute|45-minute|walk|run|rehab|bike commute", re.I)
+            candidates = [(n, p) for n, p in activities_list if filler_patterns.search(n)]
+            if not candidates:
+                candidates = activities_list
 
-        plan["daily"].append({"date": d.isoformat(), "items": items, "total_points": total})
+            # remove candidates already present or in extras
+            filtered = []
+            for name, pts in candidates:
+                lname = name.lower()
+                if any(it.get("name", "").lower() == lname for it in items):
+                    continue
+                if any(ex.get("name", "").lower() == lname for ex in extras):
+                    continue
+                filtered.append((name, pts))
+
+            # Prefer a single activity that best matches the remaining allowance.
+            single_candidates = [(i, name, pts) for i, (name, pts) in enumerate(filtered) if pts <= remaining]
+            if single_candidates:
+                # pick the one with largest pts (closest to remaining)
+                single_candidates.sort(key=lambda t: t[2], reverse=True)
+                _, name, pts = single_candidates[0]
+                items.append({"name": name, "points": pts, "recommended": True})
+                total += pts
+            else:
+                # DP subset-sum to maximize sum <= remaining
+                n = len(filtered)
+                dp = {0: []}  # sum -> list of indices
+                for i, (name, pts) in enumerate(filtered):
+                    # iterate sums in descending order to avoid reuse
+                    for s in range(remaining, pts - 1, -1):
+                        if s - pts in dp and s not in dp:
+                            dp[s] = dp[s - pts] + [i]
+
+                if dp:
+                    best = max(dp.keys())
+                    chosen = dp[best]
+                    for idx in chosen:
+                        name, pts = filtered[idx]
+                        items.append({"name": name, "points": pts, "recommended": True})
+                        total += pts
+
+        plan["daily"].append({
+            "date": d.isoformat(),
+            "items": items,
+            "extras": extras,
+            "total_points": total,
+        })
         d += datetime.timedelta(days=1)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
