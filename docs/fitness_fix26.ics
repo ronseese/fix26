@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Fitness Fix '26 (Plan)
 X-WR-TIMEZONE:America/New_York
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-12-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260112T160000
-DTEND;TZID=America/New_York:20260112T173000
+UID:fitnessfix26-item-2026-01-12-fitnessfixin26newyearchallenge@fitnessfix.local
+DTSTAMP:20260108T125414Z
+DTSTART;TZID=America/New_York:20260112T080000
+DTEND;TZID=America/New_York:20260112T090000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
+SUMMARY:FITNESS FIX in 26: New Year Challenge
+DESCRIPTION:FITNESS FIX in 26: New Year Challenge — 1 pt
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -21,13 +21,27 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-12-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
+UID:fitnessfix26-item-2026-01-12-sunsetyoga1132026@fitnessfix.local
+DTSTAMP:20260108T125414Z
+DTSTART;TZID=America/New_York:20260112T170000
+DTEND;TZID=America/New_York:20260112T180000
+ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
+SUMMARY:Sunset Yoga 1 13 2026
+DESCRIPTION:Sunset Yoga 1 13 2026 — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-item-2026-01-12-bikecommuteroundtrip30min@fitnessfix.local
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260112T070000
 DTEND;TZID=America/New_York:20260112T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
+SUMMARY:Bike commute (round trip 30 min)
+DESCRIPTION:Bike commute (round trip 30 min) — 2 pt
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
@@ -36,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-12-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260112T070000
 DTEND;TZID=America/New_York:20260112T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -49,8 +63,36 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fitnessfix26-item-2026-01-13-cyclestrongextra@fitnessfix.local
+DTSTAMP:20260108T125414Z
+DTSTART;TZID=America/New_York:20260113T080000
+DTEND;TZID=America/New_York:20260113T090000
+ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
+SUMMARY:Cycle Strong Extra--
+DESCRIPTION:Cycle Strong Extra-- — 5 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fitnessfix26-item-2026-01-13-bikecommuteroundtrip30min@fitnessfix.local
+DTSTAMP:20260108T125414Z
+DTSTART;TZID=America/New_York:20260113T070000
+DTEND;TZID=America/New_York:20260113T073000
+ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
+SUMMARY:Bike commute (round trip 30 min)
+DESCRIPTION:Bike commute (round trip 30 min) — 2 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-13-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260113T070000
 DTEND;TZID=America/New_York:20260113T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -64,7 +106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-14-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260114T070000
 DTEND;TZID=America/New_York:20260114T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -77,22 +119,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-15-linedancing@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260115T160000
-DTEND;TZID=America/New_York:20260115T170000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Line Dancing
-DESCRIPTION:Line Dancing — 5 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-15-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260115T070000
 DTEND;TZID=America/New_York:20260115T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -105,36 +133,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-16-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260116T080000
-DTEND;TZID=America/New_York:20260116T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-16-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260116T070000
-DTEND;TZID=America/New_York:20260116T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-16-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260116T070000
 DTEND;TZID=America/New_York:20260116T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -147,36 +147,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-17-pickleballroundrobin@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260117T080000
-DTEND;TZID=America/New_York:20260117T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball Round Robin
-DESCRIPTION:Pickleball Round Robin — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-17-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260117T070000
-DTEND;TZID=America/New_York:20260117T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-17-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260117T070000
 DTEND;TZID=America/New_York:20260117T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -190,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-18-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260118T070000
 DTEND;TZID=America/New_York:20260118T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -203,36 +175,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-19-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260119T160000
-DTEND;TZID=America/New_York:20260119T173000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-19-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260119T070000
-DTEND;TZID=America/New_York:20260119T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-19-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260119T070000
 DTEND;TZID=America/New_York:20260119T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -246,7 +190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-20-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260120T070000
 DTEND;TZID=America/New_York:20260120T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -259,8 +203,22 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fitnessfix26-item-2026-01-21-boccekickoff2026@fitnessfix.local
+DTSTAMP:20260108T125414Z
+DTSTART;TZID=America/New_York:20260121T163000
+DTEND;TZID=America/New_York:20260121T173000
+ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
+SUMMARY:Bocce Kickoff 2026
+DESCRIPTION:Bocce Kickoff 2026 — 1 pt
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Fitness Fix '26
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-21-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260121T070000
 DTEND;TZID=America/New_York:20260121T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -273,22 +231,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-22-linedancing@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260122T160000
-DTEND;TZID=America/New_York:20260122T170000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Line Dancing
-DESCRIPTION:Line Dancing — 5 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-22-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260122T070000
 DTEND;TZID=America/New_York:20260122T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -301,36 +245,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-23-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260123T080000
-DTEND;TZID=America/New_York:20260123T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-23-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260123T070000
-DTEND;TZID=America/New_York:20260123T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-23-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260123T070000
 DTEND;TZID=America/New_York:20260123T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -343,36 +259,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-24-pickleballroundrobin@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260124T080000
-DTEND;TZID=America/New_York:20260124T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball Round Robin
-DESCRIPTION:Pickleball Round Robin — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-24-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260124T070000
-DTEND;TZID=America/New_York:20260124T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-24-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260124T070000
 DTEND;TZID=America/New_York:20260124T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -386,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-25-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260125T070000
 DTEND;TZID=America/New_York:20260125T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -399,36 +287,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-26-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260126T160000
-DTEND;TZID=America/New_York:20260126T173000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-26-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260126T070000
-DTEND;TZID=America/New_York:20260126T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-26-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260126T070000
 DTEND;TZID=America/New_York:20260126T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -442,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-27-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260127T070000
 DTEND;TZID=America/New_York:20260127T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -456,7 +316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-28-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260128T070000
 DTEND;TZID=America/New_York:20260128T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -469,22 +329,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-29-linedancing@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260129T160000
-DTEND;TZID=America/New_York:20260129T170000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Line Dancing
-DESCRIPTION:Line Dancing — 5 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-29-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260129T070000
 DTEND;TZID=America/New_York:20260129T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -497,36 +343,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-30-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260130T080000
-DTEND;TZID=America/New_York:20260130T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-30-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260130T070000
-DTEND;TZID=America/New_York:20260130T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-30-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260130T070000
 DTEND;TZID=America/New_York:20260130T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -539,36 +357,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-31-pickleballroundrobin@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260131T080000
-DTEND;TZID=America/New_York:20260131T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball Round Robin
-DESCRIPTION:Pickleball Round Robin — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-01-31-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260131T070000
-DTEND;TZID=America/New_York:20260131T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-01-31-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260131T070000
 DTEND;TZID=America/New_York:20260131T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -582,7 +372,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-01-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260201T070000
 DTEND;TZID=America/New_York:20260201T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -595,36 +385,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-02-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260202T160000
-DTEND;TZID=America/New_York:20260202T173000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-02-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260202T070000
-DTEND;TZID=America/New_York:20260202T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-02-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260202T070000
 DTEND;TZID=America/New_York:20260202T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -638,7 +400,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-03-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260203T070000
 DTEND;TZID=America/New_York:20260203T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -652,7 +414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-04-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260204T070000
 DTEND;TZID=America/New_York:20260204T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -665,22 +427,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-05-linedancing@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260205T160000
-DTEND;TZID=America/New_York:20260205T170000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Line Dancing
-DESCRIPTION:Line Dancing — 5 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-05-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260205T070000
 DTEND;TZID=America/New_York:20260205T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -693,36 +441,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-06-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260206T080000
-DTEND;TZID=America/New_York:20260206T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-06-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260206T070000
-DTEND;TZID=America/New_York:20260206T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-06-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260206T070000
 DTEND;TZID=America/New_York:20260206T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -735,36 +455,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-07-pickleballroundrobin@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260207T080000
-DTEND;TZID=America/New_York:20260207T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball Round Robin
-DESCRIPTION:Pickleball Round Robin — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-07-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260207T070000
-DTEND;TZID=America/New_York:20260207T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-07-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260207T070000
 DTEND;TZID=America/New_York:20260207T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -778,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-08-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260208T070000
 DTEND;TZID=America/New_York:20260208T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -791,36 +483,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-09-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260209T160000
-DTEND;TZID=America/New_York:20260209T173000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-09-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260209T070000
-DTEND;TZID=America/New_York:20260209T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-09-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260209T070000
 DTEND;TZID=America/New_York:20260209T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -834,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-10-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260210T070000
 DTEND;TZID=America/New_York:20260210T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -848,7 +512,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-11-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260211T070000
 DTEND;TZID=America/New_York:20260211T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -861,22 +525,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-12-linedancing@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260212T160000
-DTEND;TZID=America/New_York:20260212T170000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Line Dancing
-DESCRIPTION:Line Dancing — 5 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-12-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260212T070000
 DTEND;TZID=America/New_York:20260212T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -889,36 +539,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-13-pickleballpractice@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260213T080000
-DTEND;TZID=America/New_York:20260213T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball practice
-DESCRIPTION:Pickleball practice — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-13-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260213T070000
-DTEND;TZID=America/New_York:20260213T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-13-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260213T070000
 DTEND;TZID=America/New_York:20260213T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -931,36 +553,8 @@ DESCRIPTION:Reminder - Fitness Fix '26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-14-pickleballroundrobin@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260214T080000
-DTEND;TZID=America/New_York:20260214T093000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Pickleball Round Robin
-DESCRIPTION:Pickleball Round Robin — 4 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fitnessfix26-item-2026-02-14-bikecommuteroundtrip@fitnessfix.local
-DTSTAMP:20260108T122538Z
-DTSTART;TZID=America/New_York:20260214T070000
-DTEND;TZID=America/New_York:20260214T073000
-ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
-SUMMARY:Bike commute (round trip)
-DESCRIPTION:Bike commute (round trip) — 1 pt
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder - Fitness Fix '26
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-14-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260214T070000
 DTEND;TZID=America/New_York:20260214T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg
@@ -974,7 +568,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fitnessfix26-item-2026-02-15-45minuteworkout@fitnessfix.local
-DTSTAMP:20260108T122538Z
+DTSTAMP:20260108T125414Z
 DTSTART;TZID=America/New_York:20260215T070000
 DTEND;TZID=America/New_York:20260215T073000
 ATTACH;FMTTYPE=image/svg+xml:https://ronseese.github.io/fix26/theme.svg

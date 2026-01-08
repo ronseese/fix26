@@ -1,0 +1,103 @@
+{
+  "source": "/Users/ron/Downloads/My Reservation List.html",
+  "scraped_at": "2026-01-08T12:43:39.221237Z",
+  "items": [
+    {
+      "Date & Time": "1/9/2026, 9:00 AM",
+      "": "",
+      "Location": "Court Sports > Pickleball > Pickleball Court 4",
+      "Length": "60 Minutes",
+      "Players": "Ron SeeseGary Clements",
+      "_table": "Your Scheduled Activities"
+    },
+    {
+      "Date & Time": "1/11/2026, 3:30 PM",
+      "": "",
+      "Location": "Court Sports > Pickleball > Pickleball Court 1",
+      "Length": "90 Minutes",
+      "Players": "Chris SeeseRon SeeseKevin SpataroAllison Spataro",
+      "_table": "Your Scheduled Activities"
+    },
+    {
+      "Date & Time": "1/8/2026, 4:15 PM",
+      "": "",
+      "Event": "Rock and Rodeo Line Dancing",
+      "Location": "Fitness",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/9/2026, 8:00 AM",
+      "": "",
+      "Event": "Mens 2.5 Team Practice 10 8 2",
+      "Location": "Court Sports",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/9/2026, 10:00 AM",
+      "": "",
+      "Event": "Strength Power Hour 1 09 2026",
+      "Location": "Fitness",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/10/2026, 8:00 AM",
+      "": "",
+      "Event": "Pickleball Round Robin 26 1",
+      "Location": "Court Sports",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/11/2026, 10:00 AM",
+      "": "",
+      "Event": "Sunday Tennis CoEd All Levels 10 4",
+      "Location": "Court Sports",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/12/2026, 8:00 AM",
+      "": "",
+      "Event": "FITNESS FIX in 26: New Year Challenge",
+      "Location": "Fitness",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/12/2026, 5:00 PM",
+      "": "",
+      "Event": "Sunset Yoga 1 13 2026",
+      "Location": "Fitness",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/13/2026, 8:00 AM",
+      "": "",
+      "Event": "Cycle Strong Extra--",
+      "Location": "Fitness",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    },
+    {
+      "Date & Time": "1/21/2026, 4:30 PM",
+      "": "",
+      "Event": "Bocce Kickoff 2026",
+      "Location": "Bocce",
+      "Players": "Ron Seese",
+      "Status": "Registered",
+      "_table": "Your Scheduled Events"
+    }
+  ]
+}

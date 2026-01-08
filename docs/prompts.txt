@@ -1,1 +1,20 @@
+https://ronseese.github.io/fix26/3_days.ics
+
 https://ronseese.github.io/fix26/fitness_fix26.ics
+
+
+
+add to playbook and update other files:
+picklball practice for 90 minutes, monday at 4pm, and friday at 8 am. round robin on sat at 8am
+line dancing Thursaday at 4pm
+
+bike commute round trip happens each time i play pb or visit the Gym, 15 minutes each way
+
+rules.txt, activities.txt, schedule.json, should be considered inputs, to geneaate a plan.json
+plan.json can fill entries in log.txt.
+plan.json should be used to create the .ics file
+
+create a plan to execute for the event described in rules.txt.
+rules.txt, activities.txt, active_reservations.json, should be considered inputs, to geneaate a plan.json, optimizing events
+so the daily limit is not exceeded, but events are choosen for feasibility
+bike commute round trip happens each time i play pb or visit the Gym, 15 minutes each way

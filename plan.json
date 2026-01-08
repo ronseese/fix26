@@ -6,15 +6,25 @@
       "date": "2026-01-12",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "16:00",
-          "duration_minutes": 90,
-          "points": 4,
+          "name": "FITNESS FIX in 26: New Year Challenge",
+          "time": "08:00",
+          "duration_minutes": 60,
+          "points": 1,
+          "location": "Fitness",
           "recommended": true
         },
         {
-          "name": "Bike commute (round trip)",
-          "points": 1,
+          "name": "Sunset Yoga 1 13 2026",
+          "time": "17:00",
+          "duration_minutes": 60,
+          "points": 5,
+          "location": "Fitness",
+          "recommended": true
+        },
+        {
+          "name": "Bike commute (round trip 30 min)",
+          "points": 2,
+          "duration_minutes": 30,
           "recommended": true
         },
         {
@@ -24,19 +34,33 @@
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 14
     },
     {
       "date": "2026-01-13",
       "items": [
         {
+          "name": "Cycle Strong Extra--",
+          "time": "08:00",
+          "duration_minutes": 60,
+          "points": 5,
+          "location": "Fitness",
+          "recommended": true
+        },
+        {
+          "name": "Bike commute (round trip 30 min)",
+          "points": 2,
+          "duration_minutes": 30,
+          "recommended": true
+        },
+        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 6
+      "total_points": 13
     },
     {
       "date": "2026-01-14",
@@ -54,68 +78,37 @@
       "date": "2026-01-15",
       "items": [
         {
-          "name": "Line Dancing",
-          "time": "16:00",
-          "duration_minutes": 60,
-          "points": 5,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-16",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-17",
       "items": [
         {
-          "name": "Pickleball Round Robin",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-18",
@@ -133,25 +126,13 @@
       "date": "2026-01-19",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "16:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-20",
@@ -169,6 +150,26 @@
       "date": "2026-01-21",
       "items": [
         {
+          "name": "Bocce Kickoff 2026",
+          "time": "16:30",
+          "duration_minutes": 60,
+          "points": 1,
+          "location": "Bocce",
+          "recommended": true
+        },
+        {
+          "name": "45-minute workout",
+          "points": 6,
+          "recommended": true
+        }
+      ],
+      "extras": [],
+      "total_points": 7
+    },
+    {
+      "date": "2026-01-22",
+      "items": [
+        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
@@ -178,71 +179,28 @@
       "total_points": 6
     },
     {
-      "date": "2026-01-22",
-      "items": [
-        {
-          "name": "Line Dancing",
-          "time": "16:00",
-          "duration_minutes": 60,
-          "points": 5,
-          "recommended": true
-        },
-        {
-          "name": "45-minute workout",
-          "points": 6,
-          "recommended": true
-        }
-      ],
-      "extras": [],
-      "total_points": 11
-    },
-    {
       "date": "2026-01-23",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-24",
       "items": [
         {
-          "name": "Pickleball Round Robin",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-25",
@@ -260,25 +218,13 @@
       "date": "2026-01-26",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "16:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-27",
@@ -308,68 +254,37 @@
       "date": "2026-01-29",
       "items": [
         {
-          "name": "Line Dancing",
-          "time": "16:00",
-          "duration_minutes": 60,
-          "points": 5,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-30",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-01-31",
       "items": [
         {
-          "name": "Pickleball Round Robin",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-01",
@@ -387,25 +302,13 @@
       "date": "2026-02-02",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "16:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-03",
@@ -435,68 +338,37 @@
       "date": "2026-02-05",
       "items": [
         {
-          "name": "Line Dancing",
-          "time": "16:00",
-          "duration_minutes": 60,
-          "points": 5,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-06",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-07",
       "items": [
         {
-          "name": "Pickleball Round Robin",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-08",
@@ -514,25 +386,13 @@
       "date": "2026-02-09",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "16:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-10",
@@ -562,68 +422,37 @@
       "date": "2026-02-12",
       "items": [
         {
-          "name": "Line Dancing",
-          "time": "16:00",
-          "duration_minutes": 60,
-          "points": 5,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-13",
       "items": [
         {
-          "name": "Pickleball practice",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-14",
       "items": [
         {
-          "name": "Pickleball Round Robin",
-          "time": "08:00",
-          "duration_minutes": 90,
-          "points": 4,
-          "recommended": true
-        },
-        {
-          "name": "Bike commute (round trip)",
-          "points": 1,
-          "recommended": true
-        },
-        {
           "name": "45-minute workout",
           "points": 6,
           "recommended": true
         }
       ],
       "extras": [],
-      "total_points": 11
+      "total_points": 6
     },
     {
       "date": "2026-02-15",

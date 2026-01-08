@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Generate plan.json from rules.txt, activities.txt, and schedule.json.
+"""Generate plan.json from rules.txt, activities.txt, and active_reservations.json.
 
 Produces a `plan.json` with per-day planned activities between the challenge dates.
+Reservations are the primary source of scheduled events; filler activities are added
+to maximize points without exceeding the daily cap.
 """
 from pathlib import Path
 import json
@@ -10,6 +12,7 @@ import re
 
 
 def parse_activities(path: Path):
+    """Parse activities.txt to extract name→points mapping."""
     text = path.read_text(encoding="utf-8") if path.exists() else ""
     items = []
     for line in text.splitlines():
@@ -27,17 +30,14 @@ def parse_activities(path: Path):
             if re.search(r"^(ACTIVITY|DAILY TRACKER|WEEK)\b", name, re.I):
                 continue
             items.append((name, pts))
-        else:
-            # skip non-point lines (they're usually headings or examples)
-            continue
     lookup = {n.lower(): p for n, p in items}
     return items, lookup
 
 
 def parse_rules(path: Path):
+    """Extract daily cap from rules.txt (default 18)."""
     text = path.read_text(encoding="utf-8") if path.exists() else ""
-    # look for a number near 'Daily Total' or just the first number ~18
-    m = re.search(r"Daily Total.*?(\d{1,3})", text, re.I)
+    m = re.search(r"Daily.*?(\d{1,3})", text, re.I)
     if m:
         return int(m.group(1))
     m2 = re.search(r"(\d{1,3})", text)
@@ -46,59 +46,116 @@ def parse_rules(path: Path):
     return 18
 
 
-def weekday_name_to_index(name):
-    name = name[:3].capitalize()
-    mapping = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
-    return mapping.get(name)
-
-
-def load_schedule(path: Path):
+def load_reservations(path: Path):
+    """Load active_reservations.json."""
     if not path.exists():
-        return None
-    return json.loads(path.read_text(encoding="utf-8"))
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return data.get("items", [])
 
 
-def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, schedule_path: Path):
+def parse_reservation_datetime(dt_str: str):
+    """Parse date/time like '1/9/2026, 9:00 AM' → (date, time_str, hour, minute)."""
+    m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4}),?\s*(\d{1,2}):(\d{2})\s*(AM|PM)?", dt_str, re.I)
+    if not m:
+        return None, None, None, None
+    month, day, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    hour, minute = int(m.group(4)), int(m.group(5))
+    ampm = (m.group(6) or "").upper()
+    if ampm == "PM" and hour < 12:
+        hour += 12
+    if ampm == "AM" and hour == 12:
+        hour = 0
+    dt = datetime.date(year, month, day)
+    time_str = f"{hour:02d}:{minute:02d}"
+    return dt, time_str, hour, minute
+
+
+def parse_duration(length_str: str):
+    """Parse duration like '60 Minutes' → 60."""
+    m = re.search(r"(\d+)", length_str or "")
+    return int(m.group(1)) if m else 60
+
+
+def compute_points(name: str, location: str, duration_minutes: int, activities_map: dict):
+    """Compute points for a reservation based on type and duration."""
+    name_lower = (name or "").lower()
+    loc_lower = (location or "").lower()
+
+    # Group fitness / yoga / strength classes → 5 pts
+    if re.search(r"yoga|strength|cycle|fitness class|power hour", name_lower):
+        return 5
+    # Line dancing → 5 pts (group fitness)
+    if re.search(r"line danc", name_lower):
+        return 5
+    # Personal training / Pilates / PT → 5 pts
+    if re.search(r"personal train|pilates|physical therap", name_lower):
+        return 5
+    # Court sports (pickleball, tennis): 1 pt per 15 min, capped at 4 pts (60 min)
+    if re.search(r"pickle|pickleball|tennis|court sport", name_lower) or "court sports" in loc_lower:
+        pts = duration_minutes // 15
+        return min(pts, 4)  # cap at 4
+    # Golf range → 1 pt
+    if re.search(r"golf range", name_lower):
+        return 1
+    # 9 holes → 2 pts, 18 holes → 4 pts
+    if re.search(r"9 holes|nine holes", name_lower):
+        return 2
+    if re.search(r"18 holes|eighteen holes", name_lower):
+        return 4
+    # Bocce, other → 1 pt
+    if re.search(r"bocce", name_lower):
+        return 1
+    # Meditation → 3 pts (bonus event)
+    if re.search(r"meditation|sunset yoga|sunrise yoga|foam roll|health fair|farmer", name_lower):
+        return 3
+    # Fallback: check activities_map
+    for key, pts in activities_map.items():
+        if key in name_lower:
+            return pts
+    # Default 1 pt
+    return 1
+
+
+def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, reservations_path: Path):
     activities_list, activities_map = parse_activities(activities_path)
     daily_cap = parse_rules(rules_path)
-    sch = load_schedule(schedule_path) or {}
+    reservations = load_reservations(reservations_path)
 
-    start = sch.get("challenge_start")
-    end = sch.get("challenge_end")
-    if not start or not end:
-        raise SystemExit("schedule.json must include challenge_start and challenge_end")
+    # Challenge dates (hardcoded as per rules.txt)
+    start_date = datetime.date(2026, 1, 12)
+    end_date = datetime.date(2026, 2, 15)
 
-    start_date = datetime.date.fromisoformat(start)
-    end_date = datetime.date.fromisoformat(end)
+    # Group reservations by date
+    reservations_by_date = {}
+    for res in reservations:
+        dt_str = res.get("Date & Time", "")
+        dt, time_str, hour, minute = parse_reservation_datetime(dt_str)
+        if dt is None:
+            continue
+        name = res.get("Event") or res.get("Location", "").split(">")[-1].strip()
+        location = res.get("Location", "")
+        duration = parse_duration(res.get("Length", "60 Minutes"))
+        pts = compute_points(name, location, duration, activities_map)
+        entry = {
+            "name": name,
+            "time": time_str,
+            "duration_minutes": duration,
+            "points": pts,
+            "location": location,
+        }
+        reservations_by_date.setdefault(dt, []).append(entry)
 
-    events = sch.get("events", [])
-
-    # prepare occurrences mapping by weekday index
-    occ_by_weekday = {}
-    for ev in events:
-        for occ in ev.get("occurrences", []):
-            wd = occ.get("weekday")
-            idx = weekday_name_to_index(wd) if wd else None
-            if idx is None:
-                continue
-            occ_by_weekday.setdefault(idx, []).append({
-                "name": ev.get("name"),
-                "time": occ.get("time"),
-                "duration_minutes": ev.get("duration_minutes", 30),
-                "points": ev.get("points", activities_map.get(ev.get("name", "").lower(), 1)),
-            })
-
-    plan = {"challenge_start": start, "challenge_end": end, "daily": []}
+    plan = {"challenge_start": start_date.isoformat(), "challenge_end": end_date.isoformat(), "daily": []}
 
     d = start_date
     while d <= end_date:
-        scheduled = occ_by_weekday.get(d.weekday(), [])
+        scheduled = reservations_by_date.get(d, [])
         items = []
         extras = []
         total = 0
 
-        # First, try to include scheduled events (prioritized). If they won't fit,
-        # move them to extras rather than exceeding the daily cap.
+        # First, include scheduled reservations (prioritized). If they exceed cap, move to extras.
         for ev in scheduled:
             pts = ev.get("points", 1)
             entry = {
@@ -106,6 +163,7 @@ def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, sched
                 "time": ev.get("time"),
                 "duration_minutes": ev.get("duration_minutes"),
                 "points": pts,
+                "location": ev.get("location"),
                 "recommended": False,
             }
             if total + pts <= daily_cap:
@@ -115,11 +173,16 @@ def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, sched
             else:
                 extras.append({**entry, "reason": "exceeds_daily_cap"})
 
-        # Bike commute rule: add bike commute when any scheduled item mentions pickle or gym
-        if any(re.search(r"pickl|pb|gym", it.get("name", ""), re.I) for it in scheduled):
-            bike_name = "Bike commute (round trip)"
-            bike_pts = activities_map.get(bike_name.lower(), 1)
-            bike_entry = {"name": bike_name, "points": bike_pts, "recommended": False}
+        # Bike commute rule: add 30-min round-trip (2 pts) when pickleball or gym/fitness event
+        has_pb_or_gym = any(
+            re.search(r"pickle|pb|gym|fitness|strength|cycle|yoga", it.get("name", ""), re.I)
+            or re.search(r"fitness|court sports", it.get("location", ""), re.I)
+            for it in scheduled
+        )
+        if has_pb_or_gym:
+            bike_name = "Bike commute (round trip 30 min)"
+            bike_pts = 2  # 1 pt per 15 min × 2 = 2 pts
+            bike_entry = {"name": bike_name, "points": bike_pts, "duration_minutes": 30, "recommended": False}
             if total + bike_pts <= daily_cap:
                 bike_entry["recommended"] = True
                 items.append(bike_entry)
@@ -127,16 +190,15 @@ def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, sched
             else:
                 extras.append({**bike_entry, "reason": "exceeds_daily_cap"})
 
-        # Fill remaining by choosing a single subset of filler activities that
-        # maximizes points without exceeding the remaining allowance.
+        # Fill remaining with filler activities (single best fit)
         remaining = daily_cap - total
         if remaining > 0:
-            filler_patterns = re.compile(r"15-minute|30-minute|45-minute|walk|run|rehab|bike commute", re.I)
+            filler_patterns = re.compile(r"15-minute|30-minute|45-minute|walk|rehab", re.I)
             candidates = [(n, p) for n, p in activities_list if filler_patterns.search(n)]
             if not candidates:
                 candidates = activities_list
 
-            # remove candidates already present or in extras
+            # Remove candidates already present
             filtered = []
             for name, pts in candidates:
                 lname = name.lower()
@@ -146,31 +208,13 @@ def generate_plan(out_path: Path, rules_path: Path, activities_path: Path, sched
                     continue
                 filtered.append((name, pts))
 
-            # Prefer a single activity that best matches the remaining allowance.
-            single_candidates = [(i, name, pts) for i, (name, pts) in enumerate(filtered) if pts <= remaining]
-            if single_candidates:
-                # pick the one with largest pts (closest to remaining)
-                single_candidates.sort(key=lambda t: t[2], reverse=True)
-                _, name, pts = single_candidates[0]
+            # Pick single activity with best fit (largest pts ≤ remaining)
+            single = [(name, pts) for name, pts in filtered if pts <= remaining]
+            if single:
+                single.sort(key=lambda t: t[1], reverse=True)
+                name, pts = single[0]
                 items.append({"name": name, "points": pts, "recommended": True})
                 total += pts
-            else:
-                # DP subset-sum to maximize sum <= remaining
-                n = len(filtered)
-                dp = {0: []}  # sum -> list of indices
-                for i, (name, pts) in enumerate(filtered):
-                    # iterate sums in descending order to avoid reuse
-                    for s in range(remaining, pts - 1, -1):
-                        if s - pts in dp and s not in dp:
-                            dp[s] = dp[s - pts] + [i]
-
-                if dp:
-                    best = max(dp.keys())
-                    chosen = dp[best]
-                    for idx in chosen:
-                        name, pts = filtered[idx]
-                        items.append({"name": name, "points": pts, "recommended": True})
-                        total += pts
 
         plan["daily"].append({
             "date": d.isoformat(),
@@ -189,9 +233,9 @@ def main():
     base = Path(__file__).resolve().parents[0] / ".."
     rules = base / "rules.txt"
     activities = base / "activities.txt"
-    schedule = base / "schedule.json"
+    reservations = base / "reservations" / "active_reservations.json"
     out = base / "plan.json"
-    generate_plan(out, rules, activities, schedule)
+    generate_plan(out, rules, activities, reservations)
 
 
 if __name__ == "__main__":
