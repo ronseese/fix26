@@ -25,6 +25,7 @@ def generate(plan_path: Path, out_path: Path):
         raise SystemExit(f"plan.json not found at {plan_path}")
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
 
+    TZID = "America/New_York"
     cal = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -32,10 +33,11 @@ def generate(plan_path: Path, out_path: Path):
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         "X-WR-CALNAME:Fitness Fix '26 (Plan)",
-        "X-WR-TIMEZONE:UTC",
+        f"X-WR-TIMEZONE:{TZID}",
         f"DTSTAMP:{dtstamp()}",
     ]
 
+    IMG_URL = "https://ronseese.github.io/fix26/theme.svg"
     for entry in plan.get("daily", []):
         date = entry.get("date")
         items = entry.get("items", [])
@@ -61,8 +63,9 @@ def generate(plan_path: Path, out_path: Path):
                 "BEGIN:VEVENT",
                 f"UID:{make_uid('item', date, summary)}",
                 f"DTSTAMP:{dtstamp()}",
-                f"DTSTART:{start_dt.strftime('%Y%m%dT%H%M00')}",
-                f"DTEND:{end_dt.strftime('%Y%m%dT%H%M00')}",
+                f"DTSTART;TZID={TZID}:{start_dt.strftime('%Y%m%dT%H%M00')}",
+                f"DTEND;TZID={TZID}:{end_dt.strftime('%Y%m%dT%H%M00')}",
+                f"ATTACH;FMTTYPE=image/svg+xml:{IMG_URL}",
                 f"SUMMARY:{summary}",
                 f"DESCRIPTION:{desc}",
                 "BEGIN:VALARM",

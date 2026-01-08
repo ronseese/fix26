@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <rect width="100%" height="100%" fill="#0b6e4f" rx="12"/>
+  <g fill="#fff" font-family="Helvetica, Arial, sans-serif">
+    <text x="20" y="52" font-size="28" font-weight="700">Fitness Fix '26</text>
+    <text x="20" y="86" font-size="14">Daily plan & reminders</text>
+  </g>
+  <circle cx="350" cy="60" r="28" fill="#ffd166" />
+  <path d="M340 52 l8 8 l12-16" stroke="#0b6e4f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
